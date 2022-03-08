@@ -1,0 +1,29 @@
+1.  What is difference between replicaset and replicacontroller ?
+
+2. What is kubernetes controller will do in cluster?
+
+3. Shell Command to find the keyword in all files  in the path /home/user/ ?
+
+4. Functionality of etcd, apiserver, schedular in k8s cluster?
+
+5. Whats is kops?
+
+6. what is auto scaling?
+
+7. What is taints and tolerations in k8s ?
+
+8. What are labels and differenec between taints and tolerations?
+
+9. Difference between scripted and declarative pipelines?
+
+10. What is Maven?
+
+11. what is pom and explain about it?
+
+12. Command to create branch in git?
+
+13. How to enable passwordless authentication for ansible tasks in hostmachines?
+
+14. Difference between Ansible and Chef?
+
+15. What is difference matchlables and matchexpressions?
