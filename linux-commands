@@ -1,0 +1,8 @@
+# command to see which user logged in
+
+    who
+
+# command to see which version of ubuntu.
+
+   cat /etc/*release*
+
