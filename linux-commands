@@ -6,3 +6,33 @@
 
    cat /etc/*release*
 
+1. Write a command to search for the file 'test' in the current directory?
+find -name test -type f
+
+2. Write a command to search for the file 'temp' in '/usr' directory?
+find /usr -name temp -type f
+
+3. Write a command to search for zero byte size files in the current directory?
+find -size 0 -type f
+
+4. Write a command to list the files that are accessed 5 days ago in the current directory?
+find -atime 5 -type f
+
+5. Write a command to list the files that were modified 5 days ago in the current directory?
+find -mtime 5 -type f
+
+6. Write a command to search for the files in the current directory which are not owned by any user in the /etc/passwd file?
+find . -nouser -type f
+
+7. Write a command to search for the files in '/usr' directory that start with 'te'?
+find /usr -name 'te*' -type f
+
+8. Write a command to search for the files that start with 'te' in the current directory and then display the contents of the file?
+find . -name 'te*' -type f -exec cat {} \;
+
+9. Write a command to list the files whose status is changed 5 days ago in the current directory?
+find -ctime 5 -type f
+
+10. Write a command to list the files in '/usr' directory that start with 'ch' and then display the number of lines in each file?
+find /usr -name 'ch*' -type f -exec wc -l {} \;
+
