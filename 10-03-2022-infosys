@@ -53,5 +53,13 @@ Ans:
 Ans:
     When two developers working on same file in same branch they will git merge conflicts to resolve this merge conflicts we can place required content in that file remove unwanted content and mark it as resolve in GitHub UI.
 
+11. How many types of docker networks are there?
+
+Ans:
+    1. bridge network (default network docker0)
+    2. host network
+    3. container network
+    4. none network
+
 
   
