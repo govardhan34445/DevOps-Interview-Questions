@@ -58,8 +58,7 @@ Ans:
 Ans:
     1. bridge network (default network docker0)
     2. host network
-    3. container network
-    4. none network
+    3. none network
 
 
   
